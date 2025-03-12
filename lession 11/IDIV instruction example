@@ -1,0 +1,4 @@
+mov     eax, 10         ; move 10 into eax
+mov     esi, 10         ; move 10 into esi
+idiv    esi             ; divide eax by esi (eax will equal 1 and edx will equal 0)
+idiv    esi             ; divide eax by esi again (eax will equal 0 and edx will equal 1)
